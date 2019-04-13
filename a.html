@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using CSS Grid</title>
+	<style>
+		body{
+			color: #fff;
+			font-family: 'Nunito Semibold';
+			text-align: center;
+        }
+            @media screen and (min-width: 480px){
+                .Navbar-small{            
+                grid-area: header2;
+                display: block;
+            }
+            .Navbar{
+                 grid-area: header1;
+                  display: none;
+            
+            }
+            #content-wrap{            
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-auto-rows: minmax(75vh, auto);
+                grid-gap: 10px;
+                width: 100%;
+                margin: 0 auto;
+                grid-template-areas:
+                "header2 header2 header2 header2"
+                "footer footer footer footer"
+                "main main main main"
+                "main main main main"
+                "aside aside nav nav"
+                "section section section section"
+                "section section section section";
+            }
+    }
+        /* desktop grid */
+        @media screen and (min-width: 760px){
+            .Navbar-small{            
+            grid-area: header2;
+            display: none;
+        }
+        .Navbar{
+            display: block;
+            grid-area: header1;
+        }
+    		#content-wrap{
+    			display: grid;
+    			grid-template-columns: repeat(4, 1fr);
+    			grid-auto-rows: minmax(100vh, auto);
+    			grid-gap: 10px;
+    			width: 100%;
+    			margin: 0 auto;
+                grid-template-areas:
+                    "header1 header1 header1 header1"
+                    "aside aside aside aside"
+                    "nav main main main"
+                    "section section section section"
+                    "section section section section"
+                    "footer footer footer footer";
+    		}
+        }
+		#content-wrap > *{
+			background: #3bbced;
+			padding: 30px;
+		}
+        .Navbar{
+            grid-area: header1;
+        }
+        .Navbar-small{            
+            grid-area: header2;
+            
+        }
+
+        #sec1{
+            grid-area: main;
+        }
+        #sec2{
+            grid-area: aside;
+        }
+        #sec3{
+            grid-area: nav;
+        }
+        #sec4{
+            grid-area: section;
+        }
+        #sec5{
+            grid-area: footer;
+            background: #333 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+	<div id="content-wrap">      
+                <div class="Navbar">
+                        <ul class="Navbar">               
+                            <li><a href="#sec5">POLLUTION CONTROL</a></li>
+                            <li><a href="#sec4">WATER CONSERVATION</a></li>
+                            <li><a href="#sec3">WINNERS</a></li>  
+                            <li><a href="#sec2">AIM</a></li>
+                            <li><a href="#sec1">HOME</a></li>
+                        </ul>
+                     </div> 
+                     <div class="Navbar-small">hi</div>  
+                     <section id="sec1" >
+                
+ 
+                            <br>
+                            <p>Section1</p>
+                      </section>
+                      <section id="sec2" >
+                            
+                           <div class="box1">    
+                                                                    
+                                   <p>Section2 <br>
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION 
+                                       POLLUTION POLLUTIONPOLLU TIONPOLLU TIONPOLLUTION POLLUTION 
+                                       POLLUTION POLLUTION                  
+                   
+                                   </p>                           
+                              </div>
+                          
+                            <div class="gotop">
+                              <button onclick="topFunction()" id="myBtn" 
+                              title="Go to top"><i class="fas fa-arrow-up"></i></button>
+                            </div>
+                      </section>
+                      <section id="sec3" >
+                        <br><p>Section3</p></section>
+                      <section id="sec4" >
+                        <br><p>Section4</p></section>
+                      <section id="sec5" >
+                        <br><p>Section5</p></section> 
+
+        
+        <!-- <div class="main"></div>
+        <div class="aside"></div>
+        <div class="nav"></div>
+        <div class="section"></div>
+        <div class="footer"></div> -->
+
+
+	</div>
+
+</body>
+</html>
