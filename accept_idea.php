@@ -30,11 +30,10 @@ if($query)
 					$mail->isHTML(true);                                  // Set email format to HTML
 
 					$mail->Subject = 'Idea Accepted!';
-					$mail->Body    = '
-
-					<img src="data_gov.png">
-					<b><h1 style="color:red;">Congratulations your idea has been accepted</h1></b><br> <?php echo htmlspecialchars($email) ; ?>   ';
-					$mail->AltBody = '<?php echo htmlspecialchars($email) ; ?>';
+					$mail->Body    = ' 
+					<b><h1 style="color:red;">Congratulations! <br></h1></b>
+					<h2><b>Your idea has been accepted by Data-GOV and very soon you will receive a cheque of Rs. 5000/- </b></h2><br>  ';
+					$mail->AltBody = '';
 
 					if(!$mail->send())
 					{
