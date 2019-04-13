@@ -714,8 +714,8 @@ position: absolute;
                         <li><a href="#sec1">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
                         <li><a href="#sec2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AIM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                         <li><a href="#sec3"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; WINNERS &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>  
-                        <li><a href="water.php" target="blank">WATER CONSERVATION</a></li>
-                        <li><a href="#">POLLUTION CONTROL</a></li>
+                        <li><a href="water.php" target="blank">POLLUTION CONTROL</a></li>
+                        <li><a href="login.php">OFFICER'S LOGIN</a></li>
                        
           </ul>
         </div>
@@ -743,8 +743,8 @@ position: absolute;
                  <div class="Navbar">
                   
                     <ul class="Navbar">               
-                        <li><a href="login.php" ">OFFICER's LOGIN</a></li>
-                        <li><a href="water.php" target="blank">WATER CONSERVATION</a></li>
+                        <li><a href="login.php" ">OFFICER'S LOGIN</a></li>
+                        <li><a href="water.php" target="blank">POLLUTION CONTROL</a></li>
                         <li><a href="#sec3">WINNERS</a></li>  
                         <li><a href="#sec2">AIM</a></li>
                         <li><a href="#sec1">HOME</a></li>
