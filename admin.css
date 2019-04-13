@@ -14,6 +14,13 @@ h3{
 	box-sizing: border-box;
 	border: 2px solid green;
 }
+.details h1{
+	letter-spacing: 1px;
+	padding: 15px;
+	margin-left: 35%;
+	font-family: sans-serif;
+	align-content: center;
+}
 #pending{
 	margin-top: 30px;
 	margin-left: 15%;

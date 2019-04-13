@@ -57,7 +57,7 @@ section:before{
      /* margin-top: -100px; */
     padding: 2px;
     box-sizing: border-box;
-    height: 55px;
+    height: 75px;
     background: rgb(161, 102, 149);
     background-image: linear-gradient(to left, rgb(65, 65, 245) , rgb(163, 64, 163), rgb(177, 100, 177));
     box-shadow: 1px 5px 10px rgb(189, 179, 179);
@@ -76,6 +76,7 @@ section:before{
     padding-right: 2%;
     float: right;
     position: relative;
+    font-size: 24px;
 } 
 .Navbar li a{ 
     color: white;
@@ -220,11 +221,13 @@ input[type=text], input[type=email], select {
   .box1 h1{
     /*font-family: Ubuntu;*/
     font-size: 40px;
+    color: #33373D;
   }
   .box1 p{
     text-align: justify;
     font-size: 25px;
     font-family: Ubuntu;
+    color:black;
   }
 
   .analytics1 h2{
@@ -301,10 +304,10 @@ input[type=text], input[type=email], select {
   position: absolute;
    border: 1px solid #a6f8a6; 
   margin-left: 15%;
-  margin-top: 100px;
-  background: rgba(252, 250, 250, 0.253);
+  margin-top: 180px;
+  background: #f3f3f3;
   width: 70%;
-  height: 70%;    
+  height: 60%;    
   box-shadow:0px 2px 5px rgba(161, 161, 161, 0.5);
 
 /*   opacity: 0;*/
@@ -682,7 +685,7 @@ position: absolute;
   
 }
 .box1{
-  background-color: #E9CFEC;
+  background-color: #c2dfff;
 }
 
 
@@ -699,7 +702,7 @@ position: absolute;
             <div id="navbar">
               <a href="#sec1"> <img src="images/data_gov.png"
                  alt="LOGO" id="logo"
-                  width="95px" height="70px"></a>
+                  width="110px" height="90px"></a>
                   <div class="toggle">
                     <i class="fa fa-bars" aria-hidden="true"></i> <div class="menu-wrap">
     <input type="checkbox" class="toggler">
@@ -903,7 +906,7 @@ position: absolute;
           </section>
           <section id="sec3" >
                
-             <h1 class="w1"> Winners</h1>
+             <h1 class="w1" style="font-size:2.4vw; margin-left: -150px;"> <i class='fa fa-trophy' style='font-size:2.4vw;color:black; '></i>  Winners</h1>
 
               <div id="myDIV">
                 <?php  

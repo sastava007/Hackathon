@@ -22,7 +22,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
 
 		while ($row=mysqli_fetch_assoc($result))
 		{											
-			echo "<div class='details'><h1>Details</h1><h3>District: ".$row['district']."</h3><h3>Name: ".$row['name']."</h3><h3>Email: ".$row['email']."</h3></div>";
+			echo "<div class='details'><h1 style='margin-left:12%;'>Data Officer</h1><h3>District: ".$row['district']."</h3><h3>Name: ".$row['name']."</h3><h3>Email: ".$row['email']."</h3></div>";
 
 		}
 
